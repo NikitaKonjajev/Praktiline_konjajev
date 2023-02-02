@@ -1,4 +1,41 @@
 ﻿from random import*
+
+
+#5
+while True:
+    nimi=input("Mis sinu nimi on?: ")
+    if nimi.isalpha(): break
+    else:
+        print("lubamatud väärtused")
+if nimi.isalpha():
+    tere="Tervist " +nimi.capitalize()
+    print(tere)
+pikk=len(nimi)
+print("Teie nimis on",pikk, "tahed.")
+vokaalid="aeiouAEIOU"
+k_vokaalid=0
+k_kaashäälikuid=0
+for i in nimi:
+    if i in vokaalid:
+        k_vokaalid+=1
+    else:
+        k_kaashäälikuid+=1
+print("Nimis on", k_vokaalid, "vokaalid ja",k_kaashäälikuid, "kaashäälikuid")
+nimi.sorted()
+sorted_name = sorted(nimi)
+sorted_name = ''.join(sorted_name)
+#4
+arvud=[]
+kogus=int(input("kogus:"))
+for i in range(kogus):
+    arvud.append(randint(-100,100))
+print(arvud)
+arvud.sort()
+print(arvud)
+
+
+
+#3
 arvud=[] 
 kogus=int(input("kogus: "))
 for i in range(kogus):
@@ -15,7 +52,7 @@ print(arvud)
 
 
 
-
+#2
 arvud=[] 
 kogus=int(input("kogus: "))
 for i in range(kogus):
@@ -39,7 +76,7 @@ else:
 
 
 
-
+#1
 index=" "
 maakonnad=["Tln","NArva","K-Järve", "Ida-Virumaa", "Tartu", "Viljandi", "Parnumaa", "Saaremaa"]
 while True:
