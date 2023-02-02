@@ -1,6 +1,4 @@
 ﻿from random import*
-
-
 #6
 while True:
     nimi=input("Mis sinu nimi on?: ")
@@ -22,8 +20,9 @@ for i in nimi:
         k_kaashäälikuid+=1
 print("Nimis on", k_vokaalid, "vokaalid ja",k_kaashäälikuid, "kaashäälikuid")
 nimi.sorted()
-sorted_name = sorted(nimi)
-sorted_name = ''.join(sorted_name)
+
+
+
 #4
 arvud=[]
 kogus=int(input("kogus:"))
@@ -92,9 +91,3 @@ if i in[1,2,3]:
     print("jääta kodus!")
 else:
     print("Kanna maski!")
-
-
-
-
-
-      
