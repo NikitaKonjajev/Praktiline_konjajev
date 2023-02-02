@@ -1,7 +1,7 @@
 ﻿from random import*
 
 
-#5
+#6
 while True:
     nimi=input("Mis sinu nimi on?: ")
     if nimi.isalpha(): break
